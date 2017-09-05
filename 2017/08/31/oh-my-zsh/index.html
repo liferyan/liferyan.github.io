@@ -94,18 +94,18 @@
 
 
 
-<meta name="description" content="Git   Command Description     g git   ga git add   gb git branch   gbd git branch -d   gcb git checkout -b   gcf git config –list   gcl git clone –recursive   gcm git checkout master   gcd git checkou">
+<meta name="description" content="Git   Command Description     g git   gst git status   ga git add   gcmsg git commit -m   gcl git clone –recursive   gr git remote   gra git remote add   grv git remote -v   gl git pull   gp git push">
 <meta name="keywords" content="zsh">
 <meta property="og:type" content="article">
 <meta property="og:title" content="oh-my-zsh">
 <meta property="og:url" content="http://liferyan.com/2017/08/31/oh-my-zsh/index.html">
 <meta property="og:site_name" content="Ryan&#39;s Notes">
-<meta property="og:description" content="Git   Command Description     g git   ga git add   gb git branch   gbd git branch -d   gcb git checkout -b   gcf git config –list   gcl git clone –recursive   gcm git checkout master   gcd git checkou">
+<meta property="og:description" content="Git   Command Description     g git   gst git status   ga git add   gcmsg git commit -m   gcl git clone –recursive   gr git remote   gra git remote add   grv git remote -v   gl git pull   gp git push">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-31T11:12:19.000Z">
+<meta property="og:updated_time" content="2017-09-01T03:28:58.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="oh-my-zsh">
-<meta name="twitter:description" content="Git   Command Description     g git   ga git add   gb git branch   gbd git branch -d   gcb git checkout -b   gcf git config –list   gcl git clone –recursive   gcm git checkout master   gcd git checkou">
+<meta name="twitter:description" content="Git   Command Description     g git   gst git status   ga git add   gcmsg git commit -m   gcl git clone –recursive   gr git remote   gra git remote add   grv git remote -v   gl git pull   gp git push">
 
 
 
@@ -343,48 +343,40 @@
 <td style="text-align:left">git</td>
 </tr>
 <tr>
+<td style="text-align:left"><code>gst</code></td>
+<td style="text-align:left">git status</td>
+</tr>
+<tr>
 <td style="text-align:left"><code>ga</code></td>
 <td style="text-align:left">git add</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>gb</code></td>
-<td style="text-align:left">git branch</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>gbd</code></td>
-<td style="text-align:left">git branch -d</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>gcb</code></td>
-<td style="text-align:left">git checkout -b</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>gcf</code></td>
-<td style="text-align:left">git config –list</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>gcl</code></td>
-<td style="text-align:left">git clone –recursive</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>gcm</code></td>
-<td style="text-align:left">git checkout master</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>gcd</code></td>
-<td style="text-align:left">git checkout develop</td>
 </tr>
 <tr>
 <td style="text-align:left"><code>gcmsg</code></td>
 <td style="text-align:left">git commit -m</td>
 </tr>
 <tr>
-<td style="text-align:left"><code>gd</code></td>
-<td style="text-align:left">git diff</td>
+<td style="text-align:left"><code>gcl</code></td>
+<td style="text-align:left">git clone –recursive</td>
 </tr>
 <tr>
-<td style="text-align:left"><code>gdca</code></td>
-<td style="text-align:left">git diff –cached</td>
+<td style="text-align:left"><code>gr</code></td>
+<td style="text-align:left">git remote</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>gra</code></td>
+<td style="text-align:left">git remote add</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>grv</code></td>
+<td style="text-align:left">git remote -v</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>gl</code></td>
+<td style="text-align:left">git pull</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>gp</code></td>
+<td style="text-align:left">git push</td>
 </tr>
 <tr>
 <td style="text-align:left"><code>ggpull</code></td>
@@ -395,12 +387,40 @@
 <td style="text-align:left">git push origin $(git_current_branch)</td>
 </tr>
 <tr>
-<td style="text-align:left"><code>gl</code></td>
-<td style="text-align:left">git pull</td>
+<td style="text-align:left"><code>gb</code></td>
+<td style="text-align:left">git branch</td>
 </tr>
 <tr>
-<td style="text-align:left"><code>gp</code></td>
-<td style="text-align:left">git push</td>
+<td style="text-align:left"><code>gbd</code></td>
+<td style="text-align:left">git branch -d</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>gco</code></td>
+<td style="text-align:left">git checkout</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>gcm</code></td>
+<td style="text-align:left">git checkout master</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>gcd</code></td>
+<td style="text-align:left">git checkout develop</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>gcb</code></td>
+<td style="text-align:left">git checkout -b</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>gm</code></td>
+<td style="text-align:left">git merge</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>gd</code></td>
+<td style="text-align:left">git diff</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>gdca</code></td>
+<td style="text-align:left">git diff –cached</td>
 </tr>
 <tr>
 <td style="text-align:left"><code>glg</code></td>
@@ -419,20 +439,12 @@
 <td style="text-align:left">git log –oneline –decorate –graph</td>
 </tr>
 <tr>
-<td style="text-align:left"><code>gm</code></td>
-<td style="text-align:left">git merge</td>
+<td style="text-align:left"><code>gcf</code></td>
+<td style="text-align:left">git config –list</td>
 </tr>
 <tr>
-<td style="text-align:left"><code>gr</code></td>
-<td style="text-align:left">git remote</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>gra</code></td>
-<td style="text-align:left">git remote add</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>grv</code></td>
-<td style="text-align:left">git remote -v</td>
+<td style="text-align:left"><code>ghh</code></td>
+<td style="text-align:left">git help</td>
 </tr>
 </tbody>
 </table>
@@ -542,6 +554,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/2017/09/01/resume/" rel="prev" title="个人简历">
+                个人简历 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -617,7 +633,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
