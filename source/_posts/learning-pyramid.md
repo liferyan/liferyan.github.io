@@ -3,8 +3,6 @@ title: Learning Pyramid
 date: 2023-06-25 09:37:17
 tags:
 ---
-The learning pyramid is a group of popular learning models and representations relating different degrees of retention induced from various type of learning.
-
 ![the pyramid learning](images/the-pyramid-learning.jpg)
 
 人的学习分为「被动学习」和「主动学习」两个层次。
