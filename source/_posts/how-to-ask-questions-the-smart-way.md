@@ -1,7 +1,7 @@
 ---
 title: How To Ask Questions The Smart Way
 date: 2023-06-24 21:06:53
-tags:
+tags: ask
 ---
 ## Before You Ask
 

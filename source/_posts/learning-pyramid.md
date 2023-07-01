@@ -1,7 +1,7 @@
 ---
 title: Learning Pyramid
 date: 2023-06-25 09:37:17
-tags:
+tags: learning
 ---
 ![the pyramid learning](images/the-pyramid-learning.jpg)
 
