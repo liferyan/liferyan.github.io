@@ -143,7 +143,7 @@ avatar:
   # Replace the default image and set the url here.
   url: /images/avatar.png
   # If true, the avatar will be displayed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
   rotated: false
 
@@ -158,7 +158,7 @@ social:
   GitHub: https://github.com/liferyan || fab fa-github
   #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
-  Twitter: https://x.com/RyanDingDev || fab fa-twitter
+  X: https://x.com/RyanDingDev || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
